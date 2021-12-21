@@ -3,3 +3,84 @@
     padding: 0;
     margin: 0;
 }
+h1{
+    color: gold;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    
+}
+
+.col{
+    background-color: rgb(252, 252, 74);
+    text-align: center;
+}
+
+.contacto{
+    text-align: center;
+}
+
+
+/*footer*/
+.pie{
+    background-image: linear-gradient(rgba(5, 10, 5, 0.80), rgba(82, 83, 68, 0.589)), url(../multimedia/gym.jpg);
+height: 200px;
+width: auto;
+font-family: sans-serif;
+padding-top: 40px;
+color: white;
+}
+
+.pie h3{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.menu_footer{
+    align-items: center;
+    text-align:center ;
+    
+}
+
+
+.menu_footer> li{
+    position: relative;
+    display: inline-block;
+    padding: 40px
+}
+
+.menu_footer > li > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.sociales{  
+list-style: none;
+display: flex;
+align-items: center;
+justify-content:space-evenly;
+margin: 29px;
+}
+
+
+
+.pie_final{
+    background-color: black;
+    width: auto;
+    padding: 10px 0;
+    text-align:left;
+    color: white;
+    font-size: 0.5rem;
+}
